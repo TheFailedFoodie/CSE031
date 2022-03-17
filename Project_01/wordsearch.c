@@ -160,7 +160,12 @@ void searchPuzzle(char** arr, char* word) {
 		}
 	}
     // Makes word uppercase
-    word = strupr(word);
+    // word = strupr(word);
+    for (int i = 0; i < strlen(word); i++){
+        if (*(word + i) >= 'a' && *(word + i) <= 'z'){
+            *(word + i) = *(word + i) - 32;
+        }
+    }
     // Begin looking for the first letter of the first word by calling recursive search function
     puzzleLoop(arr, word, 0, 0);
 
