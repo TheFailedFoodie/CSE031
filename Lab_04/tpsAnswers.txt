@@ -1,0 +1,23 @@
+TPS 1:
+    1. I expect the program to print 2.
+    2. I would expect the program to print 2 again because four_ints isn't directly changed.
+    3. My statement was incorrect, the program outputs 44434241.
+    4. I am surprised to get another 2 as the output for the third print statement.
+    5. Study the code
+        a. There were 1 array allocated in the program, four_ints.
+        b. On line 13, they are set to point at the same value.
+        c. Both four_ints and four_c are pointing at the same value after line 13.
+    6. difference in addresses for ints is 4 bytes.
+    7. done.
+    8. difference in addresses for characters is 1 byte.
+    9. done.
+    10. c accesses the values at a set point after the pointers are set to the same location.
+
+TPS 2:
+    1. line #8 initializes a double pointer arr, with size n * the size of an integer pointer.
+    2. *(arr + i)
+    3. done
+    4. passing the size allows the for loops in the function to loop the correct number of times.
+    5. done
+    6. done
+    7. done
