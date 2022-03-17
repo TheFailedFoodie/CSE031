@@ -1,0 +1,31 @@
+TPS 1:
+    Partners:
+        Benjamin Hang
+        Mark Soria Medina
+        Samuel Saldivar
+
+    Tutorials:
+        https://www.youtube.com/playlist?list=PLS1QulWo1RIb9WVQGJ_vh-RQusbZgO_As
+        https://www.youtube.com/watch?v=SkB-eRCzWIU
+        https://www.youtube.com/watch?v=IVquJh3DXUA
+
+TPS 2:
+    1. 
+        a. You can open more than 1 terminal at once.
+        b. You might want to do this so that you can have more than one session running at once.
+    2. You can find your current directory contents by typing ls into the terminal
+    3. You can navigate to desktop by typing cd /desktop into your terminal.
+    4. You type mkdir CSE31 in your terminal.
+
+TPS 3:
+    Tutorials:
+        https://www.youtube.com/watch?v=0Z4Xga_7gp0
+        https://www.youtube.com/watch?v=mg0SNvTkm04
+
+    3. gcc main.c
+    4. As long as you don't get an error and a file with a .exe or .out extention is in your current directory.
+    5. -c compiles the source files but doesn't link them.
+    6. -g flag produces the debug information of your compilation
+    7. change the code from gcc main.c to gcc main.c -o cselab1
+    8. an output file called a.exe on windows or a.out on mac and linux will be produced.
+    9. I used the command ./a.exe This ran the a.exe file
