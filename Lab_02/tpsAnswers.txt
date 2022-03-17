@@ -1,0 +1,29 @@
+Collaborators:
+    Joseph Lee
+    David Lee
+    Briam Martinez
+
+TPS 1:
+    https://www.youtube.com/watch?v=sCtY--xRUyI
+    https://u.osu.edu/cstutorials/2018/09/28/how-to-debug-c-program-using-gdb-in-6-simple-steps/
+    https://cs.baylor.edu/~donahoo/tools/gdb/tutorial.html
+
+TPS 2:
+    1. type gcc punishment.c -g -o punish
+    2. type gdb punish
+    3. type run or r
+    4. A breakpoint is a place in your code that you set for the program to stop and allow you to see that line. You set a breakpoint by typing b <line>. I set mine at 32.
+    5. Run program line by line by typing n or next
+    6. type print or p
+    7. type continue or c
+    8. type quit or q
+
+TPS 3:
+    1. there are 4 variables and 2 pointers. the pointers are called *px and *py
+    2. They will be random because the integers weren't declared. This was proved by running the program and checking the values of x, y, and arr.
+    3. You can prevent random values by setting the integers to something, like 0.
+    4. Done in pointers.c
+    5. Done in pointers.c
+    6. Because *arr = arr[i] and *(arr + 1) = arr[1], we can create a loop that prints *(arr + i) for every value from 0 to 10.
+    7. They are and the code has been added to pointers.c
+    8. The result makes sense because they are all pointing to the same value.    

@@ -1,0 +1,13 @@
+Assignment 1:
+    1. Line 18 caused the segmentation fault.
+    2. You can fix the error by inputing the address of the variable input as opposed to the value of the variable.
+    3. The variable sum is being passed by reference into the read_values() function instead of by pointer.
+    4. This can be fixed by sending the function read_values() the location of sum and altering that as opposed to the local version of the variable.
+    
+Assignment 2:
+    1. Yes, the results are what would be expected from appending the first string to the second.
+    2. No, the output recieved is not to be expected. The program output HI!hi!hello! instead of HI!hi!. This can be fixed by adding a for loop inside the while loop that sets all values of str1 and str2 to NULL.
+    3. No, the output is not expected. I believe this happens because the original strings were given a maximum size of 10.
+
+Assignment 3:
+    
