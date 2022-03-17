@@ -1,0 +1,7 @@
+IA 1:
+    1.Questions
+        a. We must pass the size of the array to bubbleSort() because we need to make a dynamically sized array.
+        b. The original array is not changed at the end of this function 
+        C. the original array still needs to be printed after the bubbleSort() function is called.
+    2. The changes to the code have been made.
+    3. 

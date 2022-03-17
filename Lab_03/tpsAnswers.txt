@@ -1,0 +1,21 @@
+Partners:
+    David Lee
+    Samuel Porter
+    Samuel Saldivar
+    Mark Soria Medina
+
+TPS 1:
+    1. the three pools of memory are static, stack, and heap. The static holds global variables, the stack holds local variables, and the heap is for dynamic storage.
+    2. mem.c
+        a. there are 3 declared variables.
+        b. 2 of them are pointers and are both initialized to garbage data. after the function is run, the first pointer points to the first integer and the second pointer points to the first pointer.
+        c. the integer is stored in the stack, and both of the pointers are stored in the heap.
+        d. on line 12, ptr is pointing to the heap because that is where the memory is being declared.
+    3. All necessary changes have been made to the image.
+    4. All necessary changes have been made to the image.
+
+
+TPS 2:
+    1. this program creates a structure called Node that has an initial value, a final value, and a node pointing to the next value in the node. the main() function creates a Node called Head and fills the initial and final values of Head.
+    2. the code has been added.
+    3. the addresses are stored close to each other and the addresses of head and iValue are the same.
