@@ -1,0 +1,21 @@
+TPS 1:
+    1. The starting address of the text segment is 0x00400000 and the starting address of the data segment is 0x10010000.
+    2. The basic section is harder to read and understand because it is meant to be understood only by the computer. The source segment is exactly what was written in MIPS.
+    3. There is a difference of 8 bytes between the two data segments.
+    4. There are 8 collums.
+    5. I assume each collum coresponds to each individual byte.
+    6. under the .data tag, you write m:    word. 20.
+    7. The new variable is stored at 0x10010004.
+    8. Done
+    9. str1 is stored at address 0x10010008.
+    10. Yes, this display agrees with Lab_04.
+    11. Done
+    12. la $t3, n loads the address of n into the register $t3. After running the instruction, the value of $t3 will be the address of n.
+
+TPS 2:
+    1. You don't need a different operation for each inequality because you can combine multiple operations to produce the same effect.
+    2. Done
+    3. Done
+    4. Done
+    5. Done
+    6. 

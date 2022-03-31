@@ -1,5 +1,7 @@
         .data
 n:      .word 13
+m:	.word 20
+str1:	.asciiz "\nI love CSE31!"
 
         .text
 main: 	add     $t0, $0, $zero
@@ -16,7 +18,10 @@ fib: 	beq     $t3, $0, finish
 		
 finish: addi    $a0, $t0, 0
 		li      $v0, 1	#You will be asked about what is the purpose of this line for syscall 
-		syscall			
+		syscall	
+		la	$a0, str1
+		li	$v0, 4
+		syscall		
 		li      $v0, 10		
 		syscall			
 

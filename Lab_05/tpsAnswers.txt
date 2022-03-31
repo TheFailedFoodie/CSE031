@@ -1,0 +1,21 @@
+TPS 1:
+    1. MARS stands for MIPS Assembler and Runtime Simulator.
+    2. Done
+    3. Done
+    4. Basic MARS Use
+        a. You load an assembly file by pressing the folder icon at the top of the screen and choosing the file you want to open
+        b. You compile the program by pressing the screwdriver and wrench icon at the top of the screen.
+        c. Press the green arrow button at the top of the screen to run the program.
+        d. You cannot run a program before assembling it.
+        e. To run the program line by line, you press the green arrow button with a 1 next to it at the top of the screen.
+        f. Press the green arrow button facing the opposite direction  of the others to reset the program.
+    
+TPS 2:
+    1. The .data loads the data that the assembler can use, .word creates an array for the assembler to load the values into, and .text loads the available instructions.
+    2. Line 10 checks to see if memory location $t3 is equal to zero. If it is, the program jumps to finish at line 17. Otherwise, it continues to run.
+    3. Line 15 jumps the program back to fib on line 10.
+    4. You set a breakpoint by first compiling the code. On the left of all lines shown in the Execute tab are boxes. Check the box of the line you want to set a breakpoint at.
+    5. You press the green play button at the top to continue executing your code after hitting a breakpoint. Alternatavely, you press the play button with a 1 beside it to take the program one step at a time.
+    6. The right-hand side of the screen shows the content of all registers. To manually modify them while the program is running, simply double click on the value you want to modify, then change it.
+    7. n is stored at 0x00400008. The 13th fibonacci number is 144.
+    8. You use syscall to recieve output from the system. You have to have an li instruction before calling syscall.
