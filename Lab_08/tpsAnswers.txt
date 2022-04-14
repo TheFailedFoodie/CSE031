@@ -1,2 +1,16 @@
 TPS 1:
-    1. 
+    1. Done
+    2. Done
+    3. Done
+    4. Done
+    5. Done
+    6. It does
+
+TPS 2:
+    1. Done
+    2. Should be 29. It is 29.
+    3. Done
+    4. Done. it should be placed in a temporary register. I placed it into the $t0 register
+    5. We can place the needed value into the $a0 register before trying to call the system.
+    6. Done.
+    7. 
