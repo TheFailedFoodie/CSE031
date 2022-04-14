@@ -1,0 +1,24 @@
+Collaborator:
+Javieir Miranda
+
+TPS 1:
+    1. Functions take input and produce output, procedures run through a list of instructions, and methods are functions that belong to classes in object oriented languages
+    2. Okay
+    3. Done
+    4. This is line number 20. this line adds the data at registers $a0 and $a1
+    5. Assuming a label is created, yes, you can use j.
+    6. Line 11 is where the return address is saved. The address is $zero. The value is 0. The return address is being set to 0.
+    7. Done
+    8. 0x00400020
+    9. No, the return address value is no longer correct. The added complexity required the addi command to be broken into 3 seperate basic commands.
+    10. The new address is 0x00400028. The output of the program is 15.
+    11. We should use the jal opperator.
+    12. Done
+
+TPS 2:
+    1. The program should return 38. It does indeed return 38.
+    2. Does about the same thing as the C version.
+    3. Because of the jal call. This links the location of the next instruction and $ra. The address returning to MAIN is wiped out. You fix this by setting the old register to a temporary location and call it when the function comes back.
+    4. The values are overwritten. Fix by storing in the stack.
+    5. Value is overwritten. Fix by storing in the stack.
+    6. Done.

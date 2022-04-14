@@ -15,14 +15,18 @@ main:
 	li $v0, 5
 	syscall
 	
-	move $t1, $v0
+	addi $t1, $v0, 0
 	
 	la $t0, n
 	lw $t0, 0($t0)
 	
 	slt $t2, $t1, $t0
 	beq $t2, $zero, greater
-	j lesser
+	j leeq
+	
+	#slt $t2, $t1, $t0
+	#bne $t2, $zero, lesser
+	#j greq
 	
 fin:	
 	li $v0, 10
@@ -33,9 +37,21 @@ greater:
 	la $a0, str3
 	syscall
 	j fin
-
-lesser:
+	
+leeq:
 	li $v0, 4
-	la $a0, str1
+	la $a0, str2
 	syscall
 	j fin
+
+#lesser:
+	#li $v0, 4
+	#la $a0, str1
+	#syscall
+	#j fin
+	
+#greq:
+	#li $v0, 4
+	#la $a0, str4
+	#syscall
+	#j fin
