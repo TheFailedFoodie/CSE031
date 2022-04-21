@@ -13,4 +13,12 @@ TPS 2:
     4. Done. it should be placed in a temporary register. I placed it into the $t0 register
     5. We can place the needed value into the $a0 register before trying to call the system.
     6. Done.
-    7. 
+    7. There is enough space for 3 integers. Currently, there is nothing stored in the stack frame. Done.
+    8. Done
+    9. Done
+    10. We need to save $a0 because we need to keep track of the size of the number as the recursion occurs.
+    11. Done
+    12. If we call recursion right away, we will have an incorrect value for $a0. We therefore need to restore it to its original value from this recursion iteration before calling the recursive function again. Done.
+    13. Done
+    14. Done
+    15. This value is the original return address. Done.
